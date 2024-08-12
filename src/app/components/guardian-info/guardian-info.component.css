@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     gap: 1em;
-    margin-bottom: .5em;
+    margin: .5em 0;
 }
 
 .address-container {
@@ -52,8 +52,4 @@ select {
     justify-content: space-between;
     margin-bottom: .5em
     ;
-}
-
-.postal-container {
-    margin-top: 1em;
 }

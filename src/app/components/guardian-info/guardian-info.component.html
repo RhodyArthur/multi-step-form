@@ -1,5 +1,16 @@
-<p class="form-title">Contact Information</p>
+<p class="form-title">Guardian Information</p>
 <p class="warning">All fields marrked with '*' are required</p>
+<p>Guardian information of applicant in case of emergencies</p>
+<div class="full-name">
+    <label for="full-name">Full name <span class="warning">*</span></label>
+    <input type="text" id="full-name" name="full-name" placeholder="John Doe" required>
+</div>
+
+<div class="guardian-relationship">
+    <label for="relationship">Relationship to Applicant <span class="warning">*</span></label>
+    <p class="description">What is the guardian's relationship to the applicant.</p>
+    <input type="text" id="relationship" name="relationship" placeholder="Father" required>
+</div>
 
 <div class="contact-container">
     <div class="phone-container">
@@ -21,7 +32,6 @@
         <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
     </div>
 </div>
-
 
 <div class="address-container">
     <p>Residential Address</p>
@@ -62,11 +72,3 @@
         </div>
     </div>
 </div>
-
-<div class="postal-container">
-        <label for="postal">Postal Address <span class="warning">*</span></label>
-        <p class="description">Valid postal address for receiving mail</p>
-        <input type="text" id="postal" placeholder="PO Box MP1234, City Name" required>
-</div>
-
-
