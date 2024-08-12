@@ -4,6 +4,7 @@
     background-color: #ffffff;
     box-shadow: 8px 9px 20px #e1e8f1;
     padding: 1.5em;
+    position: relative;
 }
 
 .menu-container {
@@ -35,7 +36,7 @@
 .menu-number {
     width: 2.7rem;
     height: 2.7rem;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -61,91 +62,35 @@
     flex-direction: column;
     width: 50%;
     border: 1px solid pink;
-    padding: 2em 1em 0;
+    padding: 0 1em;
+    padding: relative;
 }
 
-.form-title {
-    font-size: 2rem;
-    font-weight: 600;
-}
-
-.warning {
-    font-size: 1.125rem;
-    color: #C00F0C;
-}
-
-.form-upload-picture {
+.pagination {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 0 1em;
+    width: 48%;
+    right: 0;
+    left: 50%;
+    bottom: 0;
 }
 
-.picture-box {
-    width: 200px;
-    height: 200px;
-    background-color: #d3d3d3;
-}
-
-.upload-btn-container {
+.pagination-list {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    justify-content: center;
     gap: 1em;
 }
 
-.upload-btn {
-    font-size: 1rem;
-    padding: 0.5em 20px;
-    margin-top: 0.5em;
-    border-radius: 8px;
-    background-color: #1e1e1e;
-    color: #f5f5f5;
+.page-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #1e1e1e; 
+    border-radius: 4px;
+    padding: 0 .5em;
 }
-
-.form-name,
-.form-marital-age,
-.form-gender-title {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: .5em;
-}
-
-.form-name label,
-.form-other-name label,
-.form-marital-age,
-.form-gender-title {
-    font-size: 1.125rem;
-    color: #1e1e1e;
-}
-
-.description {
-    font-size: 14px;
-    color: #757575;
-}
-
-.form-name input,
-.form-other-name input,
-.form-marital-age input,
-.marital-status select,
-.gender select,
-.title select{
-    border-radius: 8px;
-    padding: 12px 16px;
-    border: 1px solid #d9d9d9;
-    width: 100%;
-}
-
-.form-other-name input{
-    margin-bottom: .5em;
-}
-
-.form-marital-age ,
-.marital-status  {
-    /* gap: .5em; */
-}
-
-
 /* 
 ====================
 HOVERING EFFECTS
@@ -154,4 +99,9 @@ HOVERING EFFECTS
 .menu-number:hover {
     background-color: #ffffff;
     color: #000000;
+}
+
+.page-link:hover {
+    background-color: #1e1e1e;
+    color: #ffffff;
 }
