@@ -57,68 +57,24 @@
     </div>
 
     <div class="form-container">
-        <p class="form-title">Personal Information</p>
-        <p class="warning">All fields marked with * are required</p>
-
-        <div class="form-upload-picture">
-            <div class="picture-box"></div>
-            <div class="upload-btn-container">
-                <p class="warning">Passport picture is required *</p>
-                <button type="button" class="upload-btn">Upload picture</button>
-            </div>
+     <app-personal-info/>
+    </div>
+    <div class="pagination">
+        <div class="previous">
+            <button type="button">Previous</button>
         </div>
-        <div class="form-name">
-            <div class="first-name">
-                <label for="first-name">First Name <span class="warning">*</span></label>
-                <p class="description">Description</p>
-                <input type="text" id="first-name" name="first-name" required>
-            </div>
-            <div class="last-name">
-                <label for="last-name">Last Name <span class="warning">*</span></label>
-                <p class="description">Description</p>
-                <input type="text" id="last-name" name="last-name" required>
-            </div>
+        <div class="pagination-list">
+            <a href="" class="page-link">1</a>
+            <a href="" class="page-link">2</a>
+            <a href="" class="page-link">3</a>
+            <a href="" class="page-link">4</a>
+            <a href="" class="page-link">5</a>
+            <a href="" class="page-link">6</a>
+            <a href="" class="page-link">7</a>
         </div>
-        <div class="form-other-name">
-                <label for="other-name">Other Name</label>
-                <p class="description">Description</p>
-                <input type="text" id="other-name" name="other-name">
-        </div>
-        <div class="form-marital-age">
-            <div class="marital-status">
-                <label for="marital-status">Marital Status <span class="warning">*</span></label>
-                <select id="marital-status" name="marital-status" required>
-                    <option value="single">Single</option>
-                    <option value="married">Married</option>
-                    <option value="divorced">Divorced</option>
-                    <option value="widowed">Widowed</option>
-                </select>
-            </div>
-            <div class="dob">
-                <label for="dob">Date of Birth <span class="warning">*</span></label>
-                <input type="date" id="dob" name="dob" required>
-            </div>
-        </div>
-        <div class="form-gender-title">
-            <div class="gender">
-                <label for="gender">Gender <span class="warning">*</span></label>
-                <select id="gender" name="gender" required>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Prefer not to say</option>
-                </select>
-            </div>
-            <div class="title">
-                <label for="title">Title <span class="warning">*</span></label>
-                <select id="title" name="title" required>
-                    <option value="mr">Mr</option>
-                    <option value="miss">Miss</option>
-                    <option value="mrs">Mrs</option>
-                    <option value="dr">Dr</option>
-                </select>
-            </div>
+        <div class="next">
+            <button type="button">Next</button>
         </div>
     </div>
-    <div class="pagination"></div>
 
 </div>
