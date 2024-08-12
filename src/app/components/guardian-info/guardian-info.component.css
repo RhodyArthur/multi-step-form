@@ -1,0 +1,55 @@
+.form-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 14px;
+    color: #757575;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: .5em 0;
+}
+
+.address-container {
+    margin-top: 1em;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    padding: .5em;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+}
+
+.contact-container div,
+.residential-container div {
+    width: 100%;
+    gap: 1em;
+}
+input[type="email"],
+input[type="tel"],
+input[type="text"],
+select {
+    border-radius: 8px;
+    padding: 12px 1em;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+}
+
+.phone-input-group select {
+    width: 30%;
+}
+
+.phone-input-group input[type="tel"] {
+    width: 70%;
+}
+
+.address-country-region,
+.address-street-city {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5em
+    ;
+}

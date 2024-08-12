@@ -1,0 +1,74 @@
+<p class="form-title">Guardian Information</p>
+<p class="warning">All fields marrked with '*' are required</p>
+<p>Guardian information of applicant in case of emergencies</p>
+<div class="full-name">
+    <label for="full-name">Full name <span class="warning">*</span></label>
+    <input type="text" id="full-name" name="full-name" placeholder="John Doe" required>
+</div>
+
+<div class="guardian-relationship">
+    <label for="relationship">Relationship to Applicant <span class="warning">*</span></label>
+    <p class="description">What is the guardian's relationship to the applicant.</p>
+    <input type="text" id="relationship" name="relationship" placeholder="Father" required>
+</div>
+
+<div class="contact-container">
+    <div class="phone-container">
+    <label for="phone-code">Phone number <span class="warning">*</span></label>
+    <p class="description">An international format</p>
+    <div class="phone-input-group">
+        <select name="phone-code" id="phone-code" required>
+            <option value="+233">+233</option>
+            <option value="+234">+234</option>
+            <option value="+1">+1</option>
+        </select>
+        <input type="tel" name="phone-number" id="phone-number" placeholder="223344556" required>
+    </div>
+    </div>
+
+    <div class="enail-container">
+        <label for="email">Secondary Email <span class="warning">*</span></label>
+        <p class="description">Valid email you can be reached at</p>
+        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+    </div>
+</div>
+
+<div class="address-container">
+    <p>Residential Address</p>
+    <div class="residential-container">
+        <div class="address-country-region">
+            <div class="sub-container">
+                <label for="country">Country <span class="warning">*</span></label>
+                <p class="description">Description</p>
+    <select name="country" id="country" required>
+        <option value="">Select your country</option>
+        <option value="US">United States</option>
+        <option value="CA">Canada</option>
+        <option value="GB">United Kingdom</option>
+        <option value="AU">Australia</option>
+        <option value="IN">India</option>
+        <option value="NG">Nigeria</option>
+        <option value="ZA">South Africa</option>
+        <option value="GH">Ghana</option>
+    </select>
+            </div>
+            <div class="sub-container">
+                <label for="region">Region <span class="warning">*</span></label>
+                <p class="description">Description</p>
+                <input type="text" id="region" placeholder="Region Name" required>
+            </div>
+        </div>
+        <div class="address-street-city">
+            <div class="sub-container">
+                <label for="street">Street <span class="warning">*</span></label>
+                <p class="description">Description</p>
+                <input type="text" id="street" placeholder="123 My Street" required>
+            </div>
+            <div class="sub-container">
+                <label for="city">City <span class="warning">*</span></label>
+                <p class="description">Description</p>
+                <input type="text" id="city" placeholder="Accra" required>
+            </div>
+        </div>
+    </div>
+</div>
