@@ -1,0 +1,26 @@
+.form-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 14px;
+    color: #757575;
+    margin-bottom: 1em;
+}
+
+
+input[type="text"],
+input[type="date"] {
+    border-radius: 8px;
+    padding: 12px 1em;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.date-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
